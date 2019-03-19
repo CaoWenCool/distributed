@@ -30,8 +30,8 @@
         <entry file="file://$PROJECT_DIR$/漫谈分布式架构/PreliminaryUnderstand.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-2660">
-                <caret line="7" column="177" lean-forward="false" selection-start-line="7" selection-start-column="177" selection-end-line="7" selection-end-column="177" />
+              <first_editor relative-caret-position="1007">
+                <caret line="209" column="184" lean-forward="false" selection-start-line="209" selection-start-column="184" selection-end-line="209" selection-end-column="184" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -251,12 +251,20 @@
       <updated>1552954698464</updated>
       <workItem from="1552954701128" duration="6093000" />
       <workItem from="1552961058400" duration="176000" />
-      <workItem from="1552961826795" duration="7176000" />
+      <workItem from="1552961826795" duration="7381000" />
     </task>
+    <task id="LOCAL-00001" summary="引入类图">
+      <created>1552969140028</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552969140028</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13445000" />
+    <option name="totallyTimeSpent" value="13650000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -294,6 +302,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="引入类图" />
+    <option name="LAST_COMMIT_MESSAGE" value="引入类图" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -366,8 +378,8 @@
     <entry file="file://$PROJECT_DIR$/漫谈分布式架构/PreliminaryUnderstand.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-2660">
-            <caret line="7" column="177" lean-forward="false" selection-start-line="7" selection-start-column="177" selection-end-line="7" selection-end-column="177" />
+          <first_editor relative-caret-position="1007">
+            <caret line="209" column="184" lean-forward="false" selection-start-line="209" selection-start-column="184" selection-end-line="209" selection-end-column="184" />
             <folding />
           </first_editor>
           <second_editor />
