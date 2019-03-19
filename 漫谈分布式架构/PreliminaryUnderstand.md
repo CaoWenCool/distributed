@@ -118,8 +118,8 @@ SOA(Service Oriented Architecture)架构意为面向服务的架构。它是一�
 
 所谓的分布式一致性问题，是指在分布式环境中引入数据复制机制之后，不同数据节点之间可能出现的，并无法依计算机应用程序自身解
 决的数据不一致的情况。简单讲，数据一致性就是指在对一个副本数据进行更新的时候，必须确保也能够更新其他的副本，否则不同副本
-之间的数据将不一致。
-![images](https://github.com/CaoWenCool/distributed/blob/master/%E6%BC%AB%E8%B0%88%E5%88%86%E5%B8%83%E5%BC%8F%E6%9E%B6%E6%9E%84/image/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BB%E5%86%99%E5%88%86%E7%A6%BB.jpg)
+之间的数据将不一致。  
+![images](https://github.com/CaoWenCool/distributed/blob/master/%E6%BC%AB%E8%B0%88%E5%88%86%E5%B8%83%E5%BC%8F%E6%9E%B6%E6%9E%84/image/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BB%E5%86%99%E5%88%86%E7%A6%BB.jpg)  
 那么如何解决这个问题？按照正常的思路，我们可能会像，既然是因为网络延迟导致的问题，那么我们可以把同步动作继续宁阻塞，
 用户2在查询的时候必须等数据同步完成以后再来做。但是这个方案带来的问题是性能会收到非常大的影响。如果同步的数据比较多
 或者比较频繁，那么因为阻塞擦操作可能将导致整个新系统不可用的情况；总结：所以我们没有办法找到一种能够满足数据一致性、又不
@@ -209,5 +209,4 @@ CDN是Content Delivery NetWork的缩写，表示的是内容分发网络，CDN�
 完全无感知
 灰度发布系统的作用在于，可以根据自己的配置，来将用户的流量导到新上线的系统上，来快速验证新的功能修改，而一旦出现问题，也
 可以马上的恢复，简单的说，就是一套A/BTest系统。
-
-![images](https://github.com/CaoWenCool/distributed/blob/master/%E6%BC%AB%E8%B0%88%E5%88%86%E5%B8%83%E5%BC%8F%E6%9E%B6%E6%9E%84/image/A-Btest%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84.jpg)
+![images]();
