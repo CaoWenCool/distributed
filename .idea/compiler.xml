@@ -6,11 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="distributed" />
+        <module name="rmi-client" />
+        <module name="rmi-server" />
+        <module name="server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="client" target="1.8" />
       <module name="distributed" target="1.5" />
+      <module name="rmi" target="1.8" />
+      <module name="rmi-client" target="1.7" />
+      <module name="rmi-server" target="1.8" />
+      <module name="rmidemo" target="1.5" />
+      <module name="server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

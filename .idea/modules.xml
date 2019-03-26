@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/distributed.iml" filepath="$PROJECT_DIR$/distributed.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rmi-client/rmi-client.iml" filepath="$PROJECT_DIR$/rmi-client/rmi-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rmi-server/rmi-server.iml" filepath="$PROJECT_DIR$/rmi-server/rmi-server.iml" />
     </modules>
   </component>
 </project>
